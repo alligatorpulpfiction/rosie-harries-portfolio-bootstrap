@@ -2,8 +2,8 @@
 
 <h2>Link to deployed webpage</h2>
 
-![images/README1.png]
-![images/README2.png]
+![README1.png]
+![README2.png]
 
 
 <h2>Project description</h2>
