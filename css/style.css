@@ -22,7 +22,13 @@ body {
     align-items:center;
 }
 
+.about-section {
+    background-color: #BCE7FD;
+}
 
+.about-body {
+    background-color: #BCE7FD;
+}
 
 /*
 .jumbotron-fluid {
