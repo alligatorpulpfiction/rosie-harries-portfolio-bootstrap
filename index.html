@@ -1,112 +1,106 @@
 <!DOCTYPE html>
 <html lang="en-gb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rosie Harries ~*~ Web Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+        <main>
+            <!-- Header and Nav bar -->
+            <div class="container">
+                <nav class="navbar" style="background-color: #94FBAB;">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rosie Harries ~*~ Web Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</head>
-
-
-
-<!-- Header and Nav bar -->
-
-<div class="container">
-    <header>
-        <h1>ROSIE HARRIES</h1>
-    </header>
-<nav class="navbar" style="background-color: #94FBAB;">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-work" href="#">Work</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="about" aria-expanded="false">
-            About
-            </a>
-            <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">History</a>
-            <a class="dropdown-item" href="#">Contact</a>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-work" href="#">Work</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="about" aria-expanded="false">
+                                        About
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">History</a>
+                                        <a class="dropdown-item" href="#">Contact</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Jumbotron -->
+                <div class="container">
+                    <div class="jumbotron" style="background-image: url(images/plant.jpg);">
+                        <h1 class="display-4 text-white text-center text-uppercase font-weight-bold">Rosie Harries ~ Web Developer</h1>
+                    </div>
+                </div>
             </div>
-        </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        </div>
-    </div>
-</nav>
-</div>
+
+            <!-- Work examples / Cards -->
+            <div class="container container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card text-center border-light mb-3">
+                        <div class="card-body">
+                            <img class="card-img-top" src="images/plant2.jpeg" alt="Picture of plant against white background">
+                            <p class="card-text">This is where project one will be, and will be updated with more information once project 1 has been created</p>
+                            <a href="https://www.worldwildlife.org/species/yangtze-finless-porpoise" class="btn btn-success">View project</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card text-center border-light mb-3">
+                        <div class="card-body">
+                            <img class="card-img-top" src="images/plant3.jpeg" alt="Picture of plant against white background">
+                            <p class="card-text">This is where project two will be, and will be updated with more information once project 2 has been created</p>
+                            <a href="https://www.worldwildlife.org/species/hector-s-dolphin" class="btn btn-success">View project</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card text-center border-light mb-3">
+                        <div class="card-body">
+                            <img class="card-img-top" src="images/plant6.jpeg" alt="Picture of plant against white background">
+                            <p class="card-text">This is where project three will be, and will be updated with more information once project 3 has been created</p>
+                            <a href="https://www.worldwildlife.org/species/ganges-river-dolphin" class="btn btn-success">View project</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card text-center border-light mb-3">
+                        <div class="card-body">
+                                <img class="card-img-top" src="images/plant5.jpeg" alt="Picture of plant against white background">
+                                <p class="card-text">This is where project four will be, and will be updated with more information once project 4 has been created</p>
+                                <a href="https://www.worldwildlife.org/species/vaquita" class="btn btn-success">View project</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-  <img id="containerimage" src="images/plants.jpg" alt="Image of plants">
 
- <main class="wrapper">
-  <section class="page-section" id="about">
-    <div class="about-content">
-      <div class="about-text">
-        <h2>About Rosie</h2>
-        <p>Rosie Harries has spent her career producing live arts performances, painting, tattooing and managing an arts charity based in East London. She is now turning her mind to coding, and is ready for the next adventure! She is looking to work with arts organisations and charities to engage new audiences through developing their websites & online presences.</p>
-      </div>
-      <aside class="about-image">
-        <img src="images/selfie.jpeg" alt="Image of Rosie Harries">
-      </aside>
-    </div>
-  </section>
-  
-    <section class="page-section" id="work">
-      <h2>My Work</h2>
-
-     <div class="work-grid">
-      <div class="work-item big" id="app1">
-        <a href="https://www.worldwildlife.org/species/giant-panda">
-          <img src="images/app1.png" alt="Flaming June by Frederic Leighton">
-        </a>
-        <p>Here is an example of Rosie's earliest work</p>
-      </div>
-
-      <div class="work-item" id="app2">
-        <a href="https://www.worldwildlife.org/species/yangtze-finless-porpoise">
-          <img src="images/app2.png" alt="The Kiss by Gustav Klimt">
-        </a>
-        <p>Another example of a website that Rosie built for a client</p>
-      </div>
-
-      <div class="work-item" id="app3">
-        <a href="https://www.worldwildlife.org/species/eastern-lowland-gorilla">
-          <img src="images/app3.jpeg" alt="La Ghirlandata by Rossetti">
-        </a>
-        <p>Here is an application that Rosie built</p>
-      </div>
-     </div>
-
-    </section>
-
-
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me!</h2>
-      <p>Please email me on roseannaharries86@gmail.com or visit my Linkedin page</p>
-    </section>
-
-    <section class="page-section contact" id="CV">
-      <h2>Please find my CV here! </h2>
-    </section>
-
-
-  </main>
+        </main>
+    </body>
+</html>
 </body>
 </html>
