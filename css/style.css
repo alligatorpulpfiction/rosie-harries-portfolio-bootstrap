@@ -12,11 +12,16 @@ body {
     
 }
 
+.skills-section .card-text {
+    list-style: none;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
     align-items:center;
 }
+
 
 
 /*
