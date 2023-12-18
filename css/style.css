@@ -1,5 +1,5 @@
 body {
-    font-family: monospace;
+    font-family: serif;
     margin: 0;
     background-color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 10%);
@@ -8,11 +8,12 @@ body {
 
 .jumbotron {
     display: flex;
+    width: 100%;
     background-size: cover;
     
 }
 
-.skills-section .card-text {
+.container .skills-section .card-text {
     list-style: none;
 }
 
@@ -20,14 +21,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items:center;
-}
-
-.about-section {
-    background-color: #BCE7FD;
-}
-
-.about-body {
-    background-color: #BCE7FD;
 }
 
 /*
