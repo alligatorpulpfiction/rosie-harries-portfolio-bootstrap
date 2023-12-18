@@ -15,6 +15,13 @@ body {
 
 .container .skills-section .card-text {
     list-style: none;
+    text-decoration: none;
+}
+
+.page-footer {
+    background-color: #0D0628;
+    color: #BCE7FD;
+
 }
 
 .container {
