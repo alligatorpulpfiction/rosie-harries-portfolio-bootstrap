@@ -12,18 +12,24 @@ body {
     background-size: cover;
 }
 
-.container .skills-section .card-text {
+.skills {
     list-style: none;
     text-decoration: none;
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
-.page-footer ul.list-unstyled:hover {
+.page-footer a {
+    color: #82ABA1;
+    margin: 0 10px;
+}
+
+.page-footer a:hover {
     color: #F06543;
 }
 
