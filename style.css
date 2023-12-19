@@ -10,7 +10,6 @@ body {
     display: flex;
     width: 100%;
     background-size: cover;
-    
 }
 
 .container .skills-section .card-text {
@@ -18,16 +17,14 @@ body {
     text-decoration: none;
 }
 
-.page-footer {
-    background-color: #0D0628;
-    color: #BCE7FD;
-
-}
-
 .container {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
+}
+
+.page-footer ul.list-unstyled:hover {
+    color: #F06543;
 }
 
 /*
